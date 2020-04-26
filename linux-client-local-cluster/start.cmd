@@ -11,7 +11,7 @@ IF [%1] == [] (
 )
 
 :: start RTI shapes demo
-cmd.exe /c "C:\Users\Andreas\Downloads\Development\rti-connext-dds-pro-6.0.0.0\bin\rtishapesdemo.bat" -workspaceFile KUBERNETES_WORKSPACE.xml
+cmd.exe /c "C:\Users\Andreas\Downloads\Development\dds\rti-connext-dds-pro-6.0.0.0\bin\rtishapesdemo.bat" -workspaceFile KUBERNETES_WORKSPACE.xml
 
 :: restore directory
 popd
